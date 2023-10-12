@@ -1,0 +1,17 @@
+:root {
+  --couleur_primaire: #d9d5c9;
+  --couleur_secondaire: #2c6545;
+  --couleur_tertiaire: white;
+  --couleur_titre_h1: black;
+  --couleur_sumbit_btn: #d9d5c9;
+  --couleur_pager_button: white;
+}
+
+[data-theme="dark"] {
+  --couleur_primaire: #424242;
+  --couleur_secondaire: #2c6545;
+  --couleur_tertiaire: #1e1e1e;
+  --couleur_titre_h1: #2c6545;
+  --couleur_sumbit_btn: white;
+  --couleur_pager_button: #1e1e1e;
+}

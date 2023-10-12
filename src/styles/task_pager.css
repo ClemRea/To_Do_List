@@ -1,0 +1,23 @@
+.pagination {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  border: none;
+  top: 77%;
+  right: 49%;
+}
+
+.page_button {
+  background-color: var(--couleur_pager_button);
+  color: var(--couleur_secondaire);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.active {
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+}

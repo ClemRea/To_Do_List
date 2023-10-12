@@ -1,0 +1,30 @@
+@import url("utils/variables.css");
+
+/* Styles pour le bouton */
+.btn_container {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.btn {
+  background-color: var(--couleur_secondaire);
+  color: var(--couleur_tertiaire);
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+
+/* Style pour le symbole + */
+.btn::before {
+  content: "+";
+  font-size: 50px;
+}
