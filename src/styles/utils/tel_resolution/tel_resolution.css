@@ -1,8 +1,4 @@
 @media (min-width: 320px) and (max-width: 530px) {
-  .header_container {
-    width: 15rem !important;
-    padding: 35px !important;
-  }
   .titre_h1 {
     font-size: 20px;
   }
@@ -16,5 +12,13 @@
 
   .toggle_container {
     right: 37% !important;
+  }
+
+  .app_container {
+    display: block !important;
+  }
+  .header_container {
+    width: 100%;
+    height: 100%;
   }
 }

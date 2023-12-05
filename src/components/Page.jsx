@@ -16,10 +16,12 @@ function Page() {
 
   return (
     <div className="header_container" id="card_todo">
-      <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
-      <h1 className="titre_h1" id="titre_h1">
-        A Faire :
-      </h1>
+      <div className="header">
+        <Toggle isChecked={isDark} handleChange={() => setIsDark(!isDark)} />
+        <h1 className="titre_h1" id="titre_h1">
+          A Faire :
+        </h1>
+      </div>
       <AddButton />
     </div>
   );

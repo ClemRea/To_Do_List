@@ -1,7 +1,7 @@
 :root {
-  --couleur_primaire: #d9d5c9;
+  --couleur_primaire: white;
   --couleur_secondaire: #2c6545;
-  --couleur_tertiaire: white;
+  --couleur_tertiaire: #d9d5c9;
   --couleur_titre_h1: black;
   --couleur_sumbit_btn: #d9d5c9;
   --couleur_pager_button: white;

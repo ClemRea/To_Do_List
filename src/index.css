@@ -9,12 +9,9 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  background-color: var(--couleur_primaire);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  transition: background-color 0.25s ease-in-out;
+  height: 100%;
+  width: 100%;
+  background-color: var(--couleur_tertiaire);
 }
 
 .dark_mode {

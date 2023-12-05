@@ -2,10 +2,13 @@
 
 /* Styles pour le bouton */
 .btn_container {
-  position: absolute;
-  bottom: 4rem;
-  left: 50%;
-  transform: translateX(-50%);
+  position: fixed;
+  bottom: 10px;
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .btn {

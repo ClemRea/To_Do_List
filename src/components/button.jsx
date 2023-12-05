@@ -60,13 +60,6 @@ function AddButton() {
 
   return (
     <>
-      <div className="btn_container">
-        <button
-          className="btn"
-          id="add_btn"
-          onClick={handleButtonClick}
-        ></button>
-      </div>
       {tasks.length > 7 ? (
         <TaskPager tasks={tasks} onDelete={handleDelete} />
       ) : (
@@ -108,6 +101,13 @@ function AddButton() {
           </div>
         </div>
       )}
+      <div className="btn_container">
+        <button
+          className="btn"
+          id="add_btn"
+          onClick={handleButtonClick}
+        ></button>
+      </div>
     </>
   );
 }

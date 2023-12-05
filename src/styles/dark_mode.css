@@ -1,7 +1,5 @@
 .toggle_container {
-  position: absolute;
-  top: 1rem;
-  right: 45%;
+  display: flex;
 }
 
 .toggle {
@@ -17,8 +15,8 @@
 }
 
 .label_text {
-  text-decoration: underline;
-  text-underline-offset: 4px;
+  text-align: center;
+  position: relative;
 }
 
 .toggle + label::before {
@@ -26,7 +24,7 @@
   height: 1em;
   width: 2em;
   border-radius: 1em;
-  background-color: var(--couleur_tertiaire);
+  background-color: var(--couleur_secondaire);
   margin-right: 0.5em;
   transition: background-color 0.25s ease-in-out;
 }

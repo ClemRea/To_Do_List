@@ -4,12 +4,12 @@
   gap: 10px;
   justify-content: center;
   border: none;
-  top: 77%;
-  right: 49%;
+  top: 99%;
+  width: 100%;
 }
 
 .page_button {
-  background-color: var(--couleur_pager_button);
+  background-color: var(--couleur_tertiaire);
   color: var(--couleur_secondaire);
   cursor: pointer;
   font-size: 20px;
